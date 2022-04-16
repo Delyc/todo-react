@@ -62,7 +62,7 @@ export default function CreateTask({ wasSuccessful, editingTask }) {
           maxLength={40}
         />
 
-        <label htmlFor="desc">Task Title</label>
+        <label htmlFor="desc">Task Description</label>
         <textarea
           name="desc"
           placeholder="Task description"
