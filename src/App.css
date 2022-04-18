@@ -1,10 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 body {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
-  background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+  /* background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e); */
+ 
   color: #f1f1f1;
 
-  padding: 2rem;
+
+}
+.nav{
+  background-color: red !important;
+  position: fixed;
+  
+}
+.foter{
+  background-color: red;
+  display: flex;
+  justify-content: space-evenly;
+}
+.website{
+  color: white;
+  text-decoration: none;
 }
 
 button {

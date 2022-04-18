@@ -6,13 +6,17 @@ import React, { useState } from "react";
 import { ToastContainer } from "react-toastify";
 
 import "react-toastify/dist/ReactToastify.css";
+import { Nav } from "./components/nav/Nav";
+import Footer from "./components/footer/Footer";
 
 function App() {
   const [wasSuccessful, setWasSuccessful] = useState(false);
   const [editingTask, setEditingTask] = useState(null);
   return (
     <main>
+      <Nav/>
       <section className="view">
+
         <ToastContainer
           position="top-left"
           autoClose={2000}
@@ -30,6 +34,7 @@ function App() {
           editing={(val) => setEditingTask(val)}
         />
       </section>
+      <Footer />
     </main>
   );
 }
